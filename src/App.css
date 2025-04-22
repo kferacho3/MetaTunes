@@ -1,0 +1,165 @@
+
+@font-face {
+   font-family: 'industrialstencil';
+   src: 
+        url('industrial-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+@font-face {
+   font-family: 'kepler452bregular';
+   src: url('kepler452b-regular-webfont.woff2') format('woff2'),
+        url('kepler452b-regular-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+
+@font-face {
+   font-family: 'kepler452bmono';
+   src: url('kepler452b-mono-webfont.woff2') format('woff2'),
+        url('kepler452b-mono-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+@font-face {
+   font-family: 'alien_remixregular';
+   src: 
+        url('alienremix-zvl7j-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+@font-face {
+   font-family: 'trenchthin';
+   src: url('trenchthin-az1j-webfont.woff2') format('woff2'),
+        url('trenchthin-az1j-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+
+@font-face {
+   font-family: 'alien_remixitalic';
+   src: 
+        url('alienremixitalic-eaol4-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+@font-face {
+   font-family: 'knife_princessregular';
+   src: url('knifeprincess-0pev-webfont.woff2') format('woff2'),
+        url('knifeprincess-0pev-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+@font-face {
+   font-family: 'real_youngregular';
+   src: url('realyoung-6xlm-webfont.woff2') format('woff2'),
+        url('realyoung-6xlm-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+@font-face {
+   font-family: 'spaceregular';
+   src: url('spaceregular-7brmd-webfont.woff2') format('woff2'),
+        url('spaceregular-7brmd-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+@font-face {
+   font-family: 'knife_princessregular';
+   src: url('knifeprincess-mmpy-webfont.woff2') format('woff2'),
+        url('knifeprincess-mmpy-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+* {
+
+box-sizing: border-box;
+
+margin:0;
+padding: 0;
+font-family: 'real_youngregular';
+/*font-family: Copperplate, "Copperplate", Georgia, serif;*/
+}
+.body {
+    overflow-x: hidden;
+    position: relative;
+
+    
+}
+.bg {
+   /* The image used */
+   background-image: url("htbg.jpeg");
+ 
+   /* Full height */
+   height: 100%;
+   overflow-x: hidden;
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+@media screen and(max-width: 375px) {
+    .body {
+       overflow-x: hidden;
+    }
+ }
+ 
+ 
+ @media screen and(max-width: 768px) {
+    .body {
+       overflow-x: hidden;
+    }
+ }
+
+ .s1 {
+    padding-inline: 20px;
+    
+ }
+
+ .bbg{
+   width: 100%;
+   height: 100%;
+
+   border-radius: 1.5rem !important;
+   border: 30px solid #660099 !important;
+   border-image: url(b1.gif) 33% round !important;
+   box-shadow: 0px 2px;
+   box-sizing:border-box;
+   background: url(bg4.jpg) no-repeat center center fixed ;
+   background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+
+ }
+
+ @media screen and (max-width:768px){
+
+   .bbg {
+   
+       background-repeat: repeat-y !important;
+   
+       background-size: contain;
+   
+   }
+   
+   }
+   
+   

@@ -1,0 +1,159 @@
+  body {
+   overflow-x: hidden;
+   background-color: #660099;
+   
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: rgb(53, 53, 53);
+  }
+  .site {
+    overflow-x: hidden;
+    /* Unnecessary IMHO, uncomment next line to force hidden behavior */
+    /* overflow-x: hidden !important; */
+    /* Additional tunning proposed by the community */
+    position: relative;
+    width: 100%;
+}
+  .title {
+    font-size: 12em;
+    text-align: center;
+
+    text-shadow: 5px 5px #660099;
+  }
+  
+  h1{
+    color: #ffffff;
+    
+  }
+  h3 {
+    padding-top: 0.25em;
+    font-size: 3rem;
+    color: #000;
+    text-shadow: 1px 1px #660099;
+  }
+  .vertical-timeline-element-subtitle {
+    text-shadow: 1px 1px #660099;
+  }
+  .vertical-timeline-element-content {
+    text-align: center;
+    color: #000;
+    border-radius: 1.5rem !important;
+    border: 30px solid #660099 !important;
+   
+    border-image: url(f1.png) 33% round !important;
+    
+    box-shadow: 0px 2px 8px 0px var(--clr-gray-light) !important;
+    
+    padding: 2em 3em;
+    font-size: 2em;
+    
+  }
+  
+  .date {
+    font-size: 6em;
+    color: #6A0DAD !important;
+    font-size: 4em !important;
+    font: bolder;
+    font-weight: 900 !important;
+    font-family: 'alien_remixitalic';
+    
+  }
+  
+  #description {
+    margin: 1.25em 0 1.5em 0;
+    font-family: 'spaceregular';
+    color: black;
+  }
+  
+  .button {
+    text-decoration: none;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .workButton {
+    background-color: #660099;
+  }
+  
+  .workButton:hover {
+    background-color: #660099;
+  }
+  
+  .schoolButton {
+    background-color: #660099;
+  }
+  
+  .schoolButton:hover {
+    background-color: #660099;
+  }
+ 
+  
+  @media only screen and (max-width: 1700px) {
+    .vertical-timeline-element-date {
+      display: block !important;
+      transform: scale(0.85) !important;
+      float: none !important;
+      color: rgb(44, 44, 44);
+      margin-top: 1.5em;
+      
+    }
+    .per{
+      font-size: 0rem;
+      visibility: hidden;
+    }
+  }
+  
+  @media only screen and (max-width: 640px) {
+    .title {
+      font-size: 5.5em;
+      text-align: center;
+    }
+    .per {
+      text-align: justify;
+      font-size: 4rem !important;
+      font-weight: 900;
+      font-family: 'kepler452bregular';
+    }
+    
+    h3 {
+     
+      font-size: 1.88rem;
+      text-align: center;
+     
+    }
+    
+    h5 {
+      margin-top: 200px;
+      margin-bottom: 200px;
+      font-size: 1rem;
+     
+    }
+    .date {
+      font-weight: 900 !important;
+      font-size: 1.75em !important;
+    }
+    #description {
+      font-size: .7rem;
+    }
+    .vertical-timeline-element-content {
+     
+      color: #000;
+      border-radius: 1rem !important;
+      border: 10px solid #660099 !important;
+     
+      border-image: url(f1.png) 33% round !important;
+      word-wrap: normal;
+      box-shadow: 0px 2px 8px 0px var(--clr-gray-light) !important;
+      text-align: left;
+      padding: 2em 3em;
+      
+      font-size: 2em;
+      
+    }
+    .vertical-timeline-element-title {
+
+      scroll-margin-bottom: 20px;
+    }
+  }

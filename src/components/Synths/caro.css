@@ -1,0 +1,32 @@
+.descC {
+    size: 0.49rem; 
+    margin: 0.7rem;  
+    color: #4f4f4f;
+}
+
+.titeT {
+    size: 0.74rem;
+    margin: 0.4rem 0 0;
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    .descC {
+        size: 0.49rem; 
+        margin: 0.7rem;  
+        color: #4f4f4f;
+    }
+    
+    .fontC {
+        size: 0.65rem;
+    }
+    .fontD {
+        size: 0.45rem;
+    }
+    .titeT {
+        size: 0.49rem; 
+        margin: 0.7rem;  
+        color: #4f4f4f;
+    }
+    }

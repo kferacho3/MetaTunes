@@ -1,0 +1,174 @@
+:root {
+    --clr-primary: #651fff;
+    --clr-gray: #37474f;
+    --clr-gray-light: #b0bec5;
+  }
+  
+  * {
+    box-sizing: border-box;
+    font-family: "real_youngregular";
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: var(--clr-gray);
+    margin: 2rem;
+  }
+  
+  .wrapper-grid {
+      
+    max-width: 1600px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 30px;/*
+    grid-template-columns: repeat(auto-fit, 20rem);*/
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    overflow: hidden;
+    border-radius: 1.5rem;
+    border: 30px solid #660099;
+   
+    border-image: url(f1.png) 33% round;
+    
+    box-shadow: 0px 2px 8px 0px var(--clr-gray-light);
+    background-color: white;
+    text-align: center;
+    position: relative;
+
+    
+  }
+  
+  .banner-img {
+    
+    background-image: url('../../images/1k.png');
+    height: 20rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .banner-img2 {
+    
+    background-image: url('../../images/1a.png');
+    height: 20rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .banner-img3 {
+    
+    background-image: url('../../images/1h.png');
+    height: 20rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .banner-img4 {
+    
+    background-image: url('../../images/1x.png');
+    height: 20rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .profile-img {
+    width: 8rem;
+    clip-path: circle(60px at center);
+    margin-top: 4.5rem;
+  }
+  
+  .name {
+    position: relative;
+    transform: translate(0, 10px);
+    font-weight: bold;
+    color: #000;
+    font-size: 1.5rem;
+  }
+  
+  .description {
+      color: black;
+    margin: 1rem 2rem;
+    font-size: 0.9rem;
+  }
+  
+  .btn {
+    width: 100%;
+    border: none;
+    
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: white;
+    padding: 1rem;
+    background-color: var(--clr-primary);
+  }
+
+
+  .h1 {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    transform: translateY(20px);
+    font-size: 8rem;
+    text-shadow: 5px 5px #660099;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .videobg {
+  height: 100%;
+  padding: 5vh;
+  position: relative; /* requires for to position video properly */
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover; /* combined with 'absolute', works like background-size, but for DOM elements */
+}
+
+
+@media screen and (max-width: 1200px) {
+  .wrapper-grid{
+  grid-template-columns: 1fr 1fr;
+  
+  }
+}
+@media screen and (max-width: 640px) {
+  .wrapper-grid{
+    grid-template-columns: 1fr;
+    
+    }
+    .h1 {
+      margin-bottom: -20px;
+      font-size: 4rem;
+    }
+    .container {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      overflow: hidden;
+      border-radius: 1.5rem;
+      border: 10px solid #660099;
+     
+      border-image: url(f1.png) 33% round;
+      
+      box-shadow: 0px 2px 8px 0px var(--clr-gray-light);
+      background-color: white;
+      text-align: center;
+      position: relative;
+      
+      
+    }
+  }

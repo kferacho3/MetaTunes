@@ -1,0 +1,67 @@
+.h8 {
+    margin: 0 auto;
+    
+    margin-bottom: 600px;
+    position: relative;
+    transform: translateY(-275px);
+    font-size: 8rem;
+    color: white;
+    text-shadow: 5px 5px #660099;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  .imgC {
+      
+    max-width: 1600px;
+    margin: 0 auto;
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(auto-fit, 40rem);
+    justify-content: center;
+  }
+
+  .cap {
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    font-size: 0.8rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'spaceregular';
+  }
+
+  .font {
+
+    font-family: 'trenchthin';
+  }
+
+.font2 {
+  font-family: 'spaceregular';
+}
+
+.border {
+  overflow: hidden;
+  border-radius: 1.5rem;
+  border: 30px solid #660099;
+
+  border-image: url(f1.png) 33% round;
+}
+
+@media only screen and (max-width: 640px) {
+.h8 {
+  font-size: 5rem;
+}
+.cap{
+  font-size: 0.36rem;
+  align-items: center;
+		
+		display:block;
+			
+  
+}
+
+
+}
